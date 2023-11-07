@@ -1,7 +1,190 @@
 {
+  "todos": [
+    {
+      "id": 0,
+      "owner_id": 4,
+      "title": "asd",
+      "completed": null
+    },
+    {
+      "id": 1,
+      "owner_id": 227,
+      "title": "test E",
+      "completed": null
+    },
+    {
+      "id": 2,
+      "owner_id": 227,
+      "title": "test E 2",
+      "completed": null
+    },
+    {
+      "id": 3,
+      "owner_id": 4,
+      "title": "test t 1",
+      "completed": null
+    },
+    {
+      "id": 4,
+      "owner_id": 1,
+      "title": "testt",
+      "completed": null
+    },
+    {
+      "id": 5,
+      "owner_id": 1,
+      "title": "test T 2",
+      "completed": null
+    },
+    {
+      "id": 6,
+      "owner_id": 2,
+      "title": "test E",
+      "completed": null
+    },
+    {
+      "id": 7,
+      "owner_id": 2,
+      "title": "test E 2",
+      "completed": null
+    },
+    {
+      "id": 8,
+      "owner_id": 0,
+      "title": "test1",
+      "completed": null
+    },
+    {
+      "id": 9,
+      "owner_id": 0,
+      "title": "test2",
+      "completed": null
+    }
+  ],
   "users": [
     {
-      "username": "test_user"
+      "id": 0,
+      "username": "t1234",
+      "hashed_password": {
+        "type": "Buffer",
+        "data": [
+          62,
+          0,
+          28,
+          84,
+          110,
+          203,
+          72,
+          142,
+          33,
+          78,
+          170,
+          62,
+          162,
+          14,
+          133,
+          233,
+          70,
+          22,
+          240,
+          188,
+          184,
+          49,
+          146,
+          27,
+          147,
+          186,
+          9,
+          53,
+          36,
+          240,
+          60,
+          89
+        ]
+      },
+      "salt": {
+        "type": "Buffer",
+        "data": [
+          74,
+          180,
+          57,
+          72,
+          186,
+          18,
+          62,
+          129,
+          13,
+          37,
+          32,
+          121,
+          101,
+          7,
+          184,
+          192
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "username": "e1234",
+      "hashed_password": {
+        "type": "Buffer",
+        "data": [
+          22,
+          60,
+          76,
+          4,
+          130,
+          186,
+          99,
+          226,
+          54,
+          79,
+          77,
+          10,
+          82,
+          124,
+          32,
+          230,
+          224,
+          202,
+          87,
+          59,
+          217,
+          99,
+          242,
+          151,
+          192,
+          140,
+          12,
+          180,
+          112,
+          60,
+          67,
+          38
+        ]
+      },
+      "salt": {
+        "type": "Buffer",
+        "data": [
+          125,
+          15,
+          107,
+          200,
+          44,
+          254,
+          215,
+          97,
+          246,
+          88,
+          232,
+          154,
+          87,
+          238,
+          169,
+          32
+        ]
+      }
     }
   ]
 }
