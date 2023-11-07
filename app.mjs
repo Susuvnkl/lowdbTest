@@ -24,19 +24,15 @@ const __dirname = path.dirname(__filename);
 
 // Set the absolute path to the views and public directories
 const viewsPath = path.join(__dirname, "views");
-const publicPath = path.join(__dirname, "public");
+
 // view engine setup
 app.set("views", viewsPath);
-
 app.set("view engine", "ejs");
-
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
-// app.use(express.static(path.join(import.meta.url, "public")));
-
 app.use(
   session({
     secret: "keyboard cat",
@@ -45,7 +41,8 @@ app.use(
     store: new SQLiteStore({ db: "sessions.db", dir: "./var/db" }),
   })
 );
-
+app.use(passport.initialize());
+app.use(passport.session());
 // Configure Passport and its strategies as needed
 
 app.use("/", indexRouter);

@@ -1,9 +1,9 @@
 import { JSONPreset } from "lowdb/node";
 
 // Define the default data structure
-const defaultData = { users: [] };
+const defaultData = { users: [], todos: [] };
 const lowdb = await JSONPreset("lowdb.json", defaultData);
-lowdb.data.users.push({ username: "test_user" });
+// lowdb.data.users.push({ username: "test_user" });
 
 await lowdb.write();
 

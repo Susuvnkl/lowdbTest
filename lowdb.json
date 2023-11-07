@@ -1,14 +1,80 @@
 {
+  "todos": [
+    {
+      "id": 0,
+      "owner_id": 0,
+      "title": "etsdf",
+      "completed": 1
+    },
+    {
+      "id": 1,
+      "owner_id": 0,
+      "title": "fghfgh",
+      "completed": null
+    }
+  ],
   "users": [
     {
-      "username": "test_user"
-    },
-    {
-      "username": "test_user"
-    },
-    {
-      "username": "test_user"
-    },
-    "yes"
+      "id": 0,
+      "username": "t1234",
+      "hashed_password": {
+        "type": "Buffer",
+        "data": [
+          236,
+          128,
+          28,
+          14,
+          37,
+          195,
+          24,
+          226,
+          26,
+          248,
+          234,
+          150,
+          80,
+          185,
+          181,
+          100,
+          153,
+          60,
+          170,
+          255,
+          140,
+          150,
+          226,
+          15,
+          24,
+          110,
+          30,
+          17,
+          231,
+          255,
+          205,
+          27
+        ]
+      },
+      "salt": {
+        "type": "Buffer",
+        "data": [
+          11,
+          103,
+          224,
+          237,
+          32,
+          142,
+          210,
+          181,
+          101,
+          169,
+          98,
+          89,
+          121,
+          95,
+          187,
+          166
+        ]
+      }
+    }
   ]
 }

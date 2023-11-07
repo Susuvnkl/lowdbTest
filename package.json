@@ -29,7 +29,7 @@
   },
   "license": "Unlicense",
   "scripts": {
-    "start": "node ./bin/www.mjs"
+    "start": "nodemon ./bin/www.mjs"
   },
   "dependencies": {
     "connect-sqlite3": "^0.9.13",
@@ -45,6 +45,7 @@
     "lowdb": "^6.1.1",
     "mkdirp": "^1.0.4",
     "morgan": "~1.9.1",
+    "nodemon": "^3.0.1",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "pluralize": "^8.0.0",
